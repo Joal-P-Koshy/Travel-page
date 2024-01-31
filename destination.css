@@ -1,0 +1,157 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Acme', sans-serif;
+}
+.main-body{
+  width: 100%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%,rgba(0, 0, 0, 0.5)50%),url(./gallery/masroor-ahmed-DW2u6LE1p-I-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 130vh;
+}
+
+.container{
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5)30%,rgba(0, 0, 0, 0.5)30%);
+  width: 100%;
+  height: 120px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin-left: 550px;
+  margin-top: -50px;
+}
+
+.links {
+  text-decoration: none;
+  color: antiquewhite;
+  font-weight: bold;
+  margin-right: 50px;
+  letter-spacing: 5px;
+}
+
+.links:hover {
+  color: rgb(220, 123, 20);
+}
+
+
+.maldives{
+  color: antiquewhite;
+  padding-top: 30px;
+  padding-left: 50px;
+  letter-spacing: 2px;
+}
+
+.label{
+  color: antiquewhite;
+  word-spacing: 6px;
+  letter-spacing: 2px;
+  padding-top: 5px;
+  padding-left: 20px;
+}
+
+.label span{
+  color: rgb(241, 141, 9);
+  word-spacing: 6px;
+  padding-top: 5px;
+}
+
+.about{
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 30px;
+  text-align: center;
+  color: #faebd7;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+}
+
+.map{
+  padding-left: 165px;
+  margin-top: 10px;
+}
+
+.alimathaa{
+  width: 200px;
+  height: 310px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5)30%,rgba(0, 0, 0, 0.5)30%);
+  margin-left: 30px;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.place{
+  text-align: center;
+  color: antiquewhite;
+  padding-top: 5px;
+}
+
+.pic{
+  width: 170px;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+.text{
+  color: antiquewhite;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  text-align: justify;
+  font-size: 15px;
+}
+
+.baros{
+  width: 200px;
+  height: 310px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5)30%,rgba(0, 0, 0, 0.5)30%);
+  margin-left: 280px;
+  margin-top: -310px;
+  border-radius: 10px;
+}
+
+.mirihi{
+  width: 200px;
+  height: 310px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5)30%,rgba(0, 0, 0, 0.5)30%);
+  margin-left: 535px;
+  margin-top: -310px;
+  border-radius: 10px;
+}
+
+.mirihi .map{
+  padding-left: 165px;
+  margin-top: 25px;
+}
+
+.gulhi{
+  width: 200px;
+  height: 310px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5)30%,rgba(0, 0, 0, 0.5)30%);
+  margin-left: 790px;
+  margin-top: -310px;
+  border-radius: 10px;
+}
+
+.gulhi .pic{
+  width: 170px;
+  height: 100px;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+.vaadhoo{
+  width: 200px;
+  height: 310px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5)30%,rgba(0, 0, 0, 0.5)30%);
+  margin-left: 1035px;
+  margin-top: -310px;
+  border-radius: 10px;
+}
+
+.vaadhoo .map{
+  padding-left: 165px;
+  margin-top: -8px;
+}

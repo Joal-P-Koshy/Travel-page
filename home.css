@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Acme', sans-serif;
+  }
+  .main-body{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%,rgba(0, 0, 0, 0.5)50%),url(./gallery/mohamed-thasneem-3bAblStd-IY-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 130vh;
+  }
+
+  /* header part  */
+  
+  .container{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)30%,rgba(0, 0, 0, 0.5)30%);
+    width: 100%;
+    height: 120px;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    margin-left: 550px;
+    margin-top: -50px;
+  }
+  
+  .links {
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: bold;
+    margin-right: 50px;
+    letter-spacing: 5px;
+  }
+  
+  .links:hover {
+    color: rgb(220, 123, 20);
+  }
+  
+  .maldives{
+    color: antiquewhite;
+    padding-top: 30px;
+    padding-left: 50px;
+    letter-spacing: 2px;
+    font-family: 'Acme', sans-serif;
+  }
+  
+  .label{
+    color: antiquewhite;
+    word-spacing: 6px;
+    letter-spacing: 2px;
+    padding-top: 5px;
+    padding-left: 20px;
+  }
+  
+  .label span{
+    color: rgb(241, 141, 9);
+    word-spacing: 6px;
+    padding-top: 5px;
+  }
+
+  /* ////////////////////////////////////////////////////////////////////////// */
+
+  .about{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 17%;
+    text-align: center;
+    color: antiquewhite;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    font-size: 20px;
+  }
+
